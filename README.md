@@ -2,7 +2,7 @@ Hi Everyone,
 
 I am Ozgur, I have been a Cloud Solutions Architect at AWS & now at Microsoft for the last 5 years. \
 I love to create content on Azure infra architectures & recently LLM's and Azure OpenAI. \
-Follow my [medium page](https://cloudatlas.me)
+Follow my [medium page](https://cloudatlas.me).
 
 
 [![Ozgur's GitHub stats](https://github-readme-stats.vercel.app/api?username=ozgurgulerx&show_icons=true&theme=merko)](https://github.com/ozgurgulerx/github-readme-stats)
