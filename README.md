@@ -12,6 +12,13 @@ I also share insights on GenAI architectures and Azure OpenAI integrations.
 [![GitHub Streak](https://streak-stats.demolab.com/?user=ozgurgulerx&theme=merko)](https://git.io/streak-stats)  
 ![](https://komarev.com/ghpvc/?username=ozgurgulerx&label=PROFILE+VIEWS)
 
+### 🔍 Analyze Your Own GitHub Profile
+
+- 🔗 [GitHub Profile Summary Generator](https://github-profile-summary-cards.vercel.app/demo.html)  
+- 🔗 [GitHub Readme Stats by Anurag](https://github.com/anuraghazra/github-readme-stats)  
+- 🔗 [OctoProfile – Beautiful profile card](https://octoprofile.vercel.app/)  
+- 🔗 [CodersRank Profile Analyzer](https://profile.codersrank.io/)  
+- 🔗 [Star History Graph](https://star-history.com/#ozgurgulerx)  
 <!--
 **ozgurgulerx/ozgurgulerx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
