@@ -1,13 +1,14 @@
-Hi Everyone, 
+### Hi, I'm Ozgur 👋  
 
-I am Ozgur, I have been a Cloud Solutions Architect at AWS & now at Microsoft for the last 5 years. \
-I love to create content on Azure infra architectures & recently LLM's and Azure OpenAI. \
-Follow my [medium page](https://cloudatlas.me).
+AI Technologist at Microsoft (ex-AWS), focused on building prototypes and developer tooling for LLM apps.  
+My current interests: AI UX, AI Product Engineering, EvalOps, and AI Security.  
+I also share insights on GenAI architectures and Azure OpenAI integrations.
 
+📝 Read more on [Medium](https://cloudatlas.me)  
+📊 GitHub activity below  
 
 [![Ozgur's GitHub stats](https://github-readme-stats.vercel.app/api?username=ozgurgulerx&show_icons=true&theme=merko)](https://github.com/ozgurgulerx/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ozgurgulerx&layout=compact)](https://github.com/ozgurgulerx/github-readme-stats)
-![](https://komarev.com/ghpvc/?username=ozgurgulerx)
+
 
 <!--
 **ozgurgulerx/ozgurgulerx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
