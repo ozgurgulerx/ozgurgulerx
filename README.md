@@ -52,7 +52,7 @@
   </p>
   <p align="center">
     <a href="https://star-history.com/#ozgurgulerx/&Date">
-      <img src="https://api.star-history.com/svg?repos=ozgurgulerx/agent-framework-ozg&type=Date" alt="Star History" />
+      <img src="https://api.star-history.com/svg?repos=ozgurgulerx/&type=Date" alt="Star History" />
     </a>
   </p>
   </details>
