@@ -1,12 +1,9 @@
- ## Hi, I'm Ozgur 👋
+  ## Hi, I'm Ozgur 👋
 
   **AI Technologist at Microsoft** (ex-AWS) — building prototypes and developer tooling for LLM apps.
 
   ### Current Interests
-  - AI UX & Product Engineering
-  - EvalOps
-  - AI Security
-  - GenAI Architectures & Azure OpenAI Integrations
+  `AI UX` `AI Product Engineering` `EvalOps` `AI Security` `GenAI Architectures` `Azure OpenAI`
 
   ---
 
@@ -18,11 +15,20 @@
   ### 📊 GitHub Stats
 
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=ozgurgulerx&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ozgurgulerx&theme=github_dark" alt="Profile Details" />
   </p>
 
   <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ozgurgulerx&hide_border=true" alt="GitHub Streak" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ozgurgulerx&theme=github_dark" alt="Stats" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ozgurgulerx&theme=github_dark&utcOffset=3" alt="Productive Time" />
+  </p>
+
+  <p align="center">
+    <img src="https://streak-stats.demolab.com?user=ozgurgulerx&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+  </p>
+
+  <p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=ozgurgulerx&theme=darkhub&no-frame=true&row=1&column=6" alt="Trophies" />
   </p>
 
   <p align="center">
