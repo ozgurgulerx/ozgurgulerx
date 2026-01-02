@@ -1,12 +1,30 @@
-### Hi, I'm Ozgur 👋  
+ ## Hi, I'm Ozgur 👋
 
-AI Technologist at Microsoft (ex-AWS), focused on building prototypes and developer tooling for LLM apps.  
-My current interests: AI UX, AI Product Engineering, EvalOps, and AI Security.  
-I also share insights on GenAI architectures and Azure OpenAI integrations.
+  **AI Technologist at Microsoft** (ex-AWS) — building prototypes and developer tooling for LLM apps.
 
-📝 Read more on [Medium](https://cloudatlas.me)  
-📊 GitHub activity below  
+  ### Current Interests
+  - AI UX & Product Engineering
+  - EvalOps
+  - AI Security
+  - GenAI Architectures & Azure OpenAI Integrations
 
-![Total stars](https://github-readme-stats.vercel.app/api?username=ozgurgulerx&show_icons=true&count_private=true&hide=issues,contribs&custom_title=⭐%20Total%20stars)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=ozgurgulerx&theme=merko)](https://git.io/streak-stats)  
-![](https://komarev.com/ghpvc/?username=ozgurgulerx&label=PROFILE+VIEWS)
+  ---
+
+  ### 📝 Writing
+  Read my articles on [Medium](https://cloudatlas.me)
+
+  ---
+
+  ### 📊 GitHub Stats
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=ozgurgulerx&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
+  </p>
+
+  <p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ozgurgulerx&hide_border=true" alt="GitHub Streak" />
+  </p>
+
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=ozgurgulerx&style=flat-square&color=blue" alt="Profile Views" />
+  </p>
