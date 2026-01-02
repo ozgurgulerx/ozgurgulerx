@@ -1,8 +1,8 @@
   ## Ozgur Guler
 
-  **AI Technologist @ Microsoft** | Ex-AWS | Building the future of LLM applications
+  **AI Tech Specialist @ Microsoft Innovation Labs ** | Ex-AWS | Building the future of LLM applications
 
-  I prototype AI systems, develop internal tooling, and help teams ship production LLM apps. Currently focused on **AI UX patterns**, **EvalOps**, and **AI Security**.
+  I prototype AI systems, develop internal tooling, and help teams ship production LLM apps. Currently focused on **LLM Inference Optimisation** **Reasoning post-training** **AI Agents** **LLM Memory** **AI UX patterns** **EvalOps**, and **AI Security**.
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ozguler/)
   [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/ozgurgulerx)
