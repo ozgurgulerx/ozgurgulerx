@@ -43,18 +43,6 @@
   <p align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ozgurgulerx&theme=github_dark" />
   </p>
-
-    <details>
-  <summary>📊 GitHub Stats</summary>
-  <br>
-  <p align="center">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ozgurgulerx&theme=github_dark" />
-  </p>
-  <p align="center">
-    <a href="https://star-history.com/#ozgurgulerx/&Date">
-      <img src="https://api.star-history.com/svg?repos=ozgurgulerx/&type=Date" alt="Star History" />
-    </a>
-  </p>
   </details>
 
   ---
