@@ -1,6 +1,6 @@
   ## Ozgur Guler
 
-  **AI Tech Specialist @ Microsoft Innovation Labs ** | Ex-AWS | Building the future of LLM applications
+  AI Tech Specialist @ Microsoft Innovation Labs | Ex-AWS | Building the future of LLM applications
 
   I prototype AI systems, develop internal tooling, and help teams ship production LLM apps. Currently focused on **LLM Inference Optimisation** **Reasoning post-training** **AI Agents** **LLM Memory** **AI UX patterns** **EvalOps**, and **AI Security**.
 
