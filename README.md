@@ -1,74 +1,46 @@
 ## Ozgur Guler
 
-AI Tech Specialist @ Microsoft Innovation Labs | Ex-AWS | Building the future of LLM applications
+Production AI systems: agents, inference, evals, governance, and cloud architecture.
 
-I prototype AI systems, develop internal tooling, and help teams ship production LLM apps. Currently focused on **LLM Inference Optimisation** **Reasoning post-training** **AI Agents** **LLM Memory** **AI UX patterns** **EvalOps**, and **AI Security**.
+I am the MS Innovation Hub technical lead in Istanbul. My public technical work is about productionising AI agents and LLM applications: workflow discovery, secure tool use, retrieval, model serving, evaluation, observability, governance, and enterprise rollout. Earlier work spans startup cloud architecture at AWS, low-latency trading infrastructure in London, and service-provider/telco networks at Cisco Systems UK.
 
+[![Website](https://img.shields.io/badge/Website-ozgurguler.org-111?style=flat&logo=firefoxbrowser&logoColor=white)](https://ozgurguler.org/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ozguler/)
 [![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/ozgurgulerx)
-[![Medium](https://img.shields.io/badge/Blog-cloudatlas.me-000?style=flat&logo=medium&logoColor=white)](https://cloudatlas.me)
+[![Writing](https://img.shields.io/badge/Writing-Medium-000?style=flat&logo=medium&logoColor=white)](https://medium.com/@343544)
 ![Stars](https://img.shields.io/github/stars/ozgurgulerx?style=flat&logo=github&label=Stars&color=gold)
 
 ---
 
-### What I'm Working On
+### Current Focus
 
-- GenAI reference architectures for Azure OpenAI
-- Developer tooling for LLM app observability
-- Evaluation frameworks for production AI systems
+- **Production AI deployment:** turning ambiguous workflows into working agent systems, eval gates, rollout plans, and reusable implementation patterns.
+- **Secure agent systems:** scoped tools, MCP-style boundaries, human review, traces, red-team cases, AI security controls, and operational failure modes.
+- **Inference engineering:** TTFT, TPOT, throughput, p95/p99 latency, cost per workload, model routing, capacity planning, and serving tradeoffs.
+- **AI factory architecture:** GPU capacity, accelerator selection, networking, observability, power/cooling assumptions, and enterprise deployment constraints.
+- **EvalOps and governance:** regression tests, policy checks, telemetry, release gates, risk registers, and incident-ready controls for LLM systems.
 
 ---
 
-### Projects
+### Public Proof Tracks
 
-#### AI Agents & Orchestration
-| Repo | Description |
-|------|-------------|
-| [agent-framework-ozg](https://github.com/ozgurgulerx/agent-framework-ozg) | Workshop-ready Microsoft Agent Framework samples — agents, workflows, memory & reasoning |
-| [emergency-payment](https://github.com/ozgurgulerx/emergency-payment) | Multi-agent emergency payment processing with sanctions screening & liquidity assessment |
-| [treasury-shock-day-demo](https://github.com/ozgurgulerx/treasury-shock-day-demo) | Multi-agent AI workflow for intraday liquidity & FX stress response on Azure AI Foundry |
-| [agent-framework-backend-custom01](https://github.com/ozgurgulerx/agent-framework-backend-custom01) | Credit Desk Lite — multi-agent credit underwriting with typed workflows & HITL gates |
-| [microsoft-agent-framework-ozg](https://github.com/ozgurgulerx/microsoft-agent-framework-ozg) | Jupyter-first curriculum for Microsoft Agent Framework with story-driven labs |
-| [fund-multi-agent](https://github.com/ozgurgulerx/fund-multi-agent) | Multi-agent system for fund intelligence and investment analysis |
+| Track | What It Demonstrates | Repos |
+| --- | --- | --- |
+| Secure agent deployment | Agent workflow from discovery to prototype, evals, tool boundaries, telemetry, and rollout memo | [secure-agent-deployment-proof](https://github.com/ozgurgulerx/secure-agent-deployment-proof), [af-durable-harness-examples](https://github.com/ozgurgulerx/af-durable-harness-examples), [agent-framework-ozg](https://github.com/ozgurgulerx/agent-framework-ozg) |
+| Inference and AI infrastructure | Serving economics, benchmark thinking, AI data-center constraints, and production systems notes | [inference-engineering](https://github.com/ozgurgulerx/inference-engineering), [inference-journal](https://github.com/ozgurgulerx/inference-journal), [inference-engineering-book](https://github.com/ozgurgulerx/inference-engineering-book) |
+| Applied AI architecture | RAG, GraphRAG, domain workflows, data integration, and enterprise reference implementations | [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag), [advanced-rag-ozg](https://github.com/ozgurgulerx/advanced-rag-ozg), [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) |
+| Evals, security, and governance | Continuous evaluation, PII controls, red-team thinking, and release-readiness checks | [azure-foundry-cont-eval](https://github.com/ozgurgulerx/azure-foundry-cont-eval), [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg), [ai-security-ozg](https://github.com/ozgurgulerx/ai-security-ozg) |
+| Cloud and platform breadth | Google Cloud, Azure AI Foundry, agent memory, and platform comparison labs | [ga-gcp-ai-labs](https://github.com/ozgurgulerx/ga-gcp-ai-labs), [learn-ai-on-gcp](https://github.com/ozgurgulerx/learn-ai-on-gcp), [foundry-agent-service-memory](https://github.com/ozgurgulerx/foundry-agent-service-memory), [azureopenai-katas](https://github.com/ozgurgulerx/azureopenai-katas) |
 
-#### RAG & Retrieval
-| Repo | Description |
-|------|-------------|
-| [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag) | AI-powered mutual fund analysis with PII protection — RAG over 490K+ fund holdings |
-| [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor) | RAPTOR hierarchical indexing on Azure AI Search for advanced RAG retrieval |
-| [advanced-rag-ozg](https://github.com/ozgurgulerx/advanced-rag-ozg) | Advanced RAG optimization with sparse retrieval, hybrid pipelines & RAPTOR patterns |
-| [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) | Graph-based AI tutoring system with knowledge graph navigation |
+---
 
-#### Full-Stack AI Applications
-| Repo | Description |
-|------|-------------|
-| [startup-investments](https://github.com/ozgurgulerx/startup-investments) | Full-stack AI platform for tracking startup funding, news signals & market intelligence |
-| [aviation-demos-01](https://github.com/ozgurgulerx/aviation-demos-01) | Enterprise aviation data intelligence platform with RAG, PII detection & Azure AI Search |
-| [finsmart](https://github.com/ozgurgulerx/finsmart) | AI CFO backend — financial anomaly detection with LLM-powered explanations |
-| [treasury](https://github.com/ozgurgulerx/treasury) | Enterprise AI solutions for oil & gas — predictive maintenance, production optimization |
-| [ai-hedge-fund-xx](https://github.com/ozgurgulerx/ai-hedge-fund-xx) | AI-powered hedge fund simulation with multi-agent trading strategies |
+### Selected Build Notes
 
-#### LLM Engineering & Research
-| Repo | Description |
-|------|-------------|
-| [inference-journal](https://github.com/ozgurgulerx/inference-journal) | Inference engineering lab notebook — vLLM, TensorRT-LLM, Triton benchmarks & experiments |
-| [reasoning-llms-ozg](https://github.com/ozgurgulerx/reasoning-llms-ozg) | Research on reasoning LLMs — multi-step decomposition, structured deliberation & tool use |
-| [rl-ozg](https://github.com/ozgurgulerx/rl-ozg) | Reinforcement learning experiments for LLMs, world models & multimodal agents |
-| [generative-ui-ozg](https://github.com/ozgurgulerx/generative-ui-ozg) | Generative UI experiments — patterns, prototypes & LLM-driven interfaces |
-
-#### Security & PII
-| Repo | Description |
-|------|-------------|
-| [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg) | PII detection & anonymization service with Microsoft Presidio, FastAPI & Ollama fallback |
-| [ai-security-ozg](https://github.com/ozgurgulerx/ai-security-ozg) | AI security research — adversarial attacks, red teaming & LLM safety |
-
-#### Learning & Workshops
-| Repo | Description |
-|------|-------------|
-| [openai-katas](https://github.com/ozgurgulerx/openai-katas) | Hands-on katas for learning the OpenAI API — from beginner to advanced |
-| [azureopenai-katas](https://github.com/ozgurgulerx/azureopenai-katas) | Hands-on katas for Azure OpenAI, Semantic Kernel & AI Foundry |
-| [agent-memory](https://github.com/ozgurgulerx/agent-memory) | Hands-on workshop on building memory systems for AI agents |
-| [foundry-demo](https://github.com/ozgurgulerx/foundry-demo) | Comprehensive demo of Azure AI Foundry capabilities announced at Ignite 2025 |
+- [Public inference engineering lab notebook](https://github.com/ozgurgulerx/inference-engineering) - daily notes, serving experiments, Runpod work, and production AI systems notes.
+- [Secure agent deployment proof](https://github.com/ozgurgulerx/secure-agent-deployment-proof) - active workbench for evals, tool boundaries, telemetry, rollout planning, and inference economics.
+- [Azure AI Foundry continuous evaluation harness](https://github.com/ozgurgulerx/azure-foundry-cont-eval) - reproducible test harness for agent evaluation.
+- [Durable Agent Framework examples](https://github.com/ozgurgulerx/af-durable-harness-examples) - runnable patterns for long-running workflows, orchestration, and evaluation.
+- [Personal technical website](https://ozgurguler.org/) - technical blog, build log, books, talks, consulting formats, and public archive material.
 
 ---
 
@@ -78,7 +50,7 @@ I prototype AI systems, develop internal tooling, and help teams ship production
 - [Context Engineering with Microsoft Agent Framework's Context Provider API](https://medium.com/microsoftazure/context-engineering-with-microsoft-agent-frameworks-context-provider-api-dcf083daa8be)
 - [Fixing Sparse Retrieval with RAPTOR on Azure AI Search](https://medium.com/microsoftazure/fixing-sparse-retrieval-with-raptor-on-azure-ai-search-4d540dd3bd43)
 - [The Missing Piece in Graph RAG: Graph Attention Networks](https://medium.com/@343544/the-missing-piece-in-graph-rag-graph-attention-networks-f50cb9857895)
-- [Tackle Complex LLM Decision-Making with Language Agent Tree Search (LATS) & GPT-4o](https://medium.com/data-science/tackle-complex-llm-decision-making-with-language-agent-tree-search-lats-gpt4-o-0bc648c46ea4)
+- [Tackle Complex LLM Decision-Making with Language Agent Tree Search (LATS) and GPT-4o](https://medium.com/data-science/tackle-complex-llm-decision-making-with-language-agent-tree-search-lats-gpt4-o-0bc648c46ea4)
 
 ---
 
@@ -87,11 +59,12 @@ I prototype AI systems, develop internal tooling, and help teams ship production
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=next.js&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-000?style=flat&logo=opentelemetry&logoColor=white)
 
 ---
 
