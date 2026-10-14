@@ -1,5 +1,7 @@
 ## Ozgur Guler
 
+[![Total GitHub stars](https://img.shields.io/github/stars/ozgurgulerx?style=flat&label=Total%20stars)](https://github.com/ozgurgulerx?tab=repositories&sort=stargazers)
+
 **Azure-first agentic AI architect for regulated financial services. Amazon Bedrock second. London from March 2027.**
 
 I design and ship production agent systems: RAG and tool-using agents on Azure AI Foundry with MCP and OAuth-scoped tools, eval gates, tracing, guardrails and a human-review path — and the architecture and governance packs a regulated client needs to sign them off. Most recently I was an AI Solutions Engineer at Microsoft (Istanbul innovation hub), building and productionising GenAI systems with enterprise customers. Before that: startup Solutions Architect at AWS in London, low-latency trading systems at J.P. Morgan and Citadel's Automat, and service-provider networks as a Principal Architect at Cisco Systems UK.
