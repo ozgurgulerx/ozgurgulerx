@@ -23,11 +23,12 @@ I design and ship production agent systems: RAG and tool-using agents on Azure A
 
 ### Proof
 
-The target bar for active proof projects is a README with an architecture diagram, tests, CI, a Dockerfile, and an eval report with numbers. Existing repositories vary in maturity; the production agent workbench identifies its current stage, and notes are labelled below.
+Two repos carry the proof; everything else is supporting work. The bar for the two is a README with an architecture diagram, tests, CI, a Dockerfile and an eval report with numbers; their stage tables say honestly what is merged and what is planned. Supporting repos are earlier, uneven in maturity, and labelled as such.
 
 | Track | What it shows | Repos |
 | --- | --- | --- |
-| Production agent on Azure | RAG + agent on Azure AI Foundry with MCP tools, OAuth, evals, tracing, guardrails and a human-review path; eval scores, p95 and cost per 1k requests published | [secure-agent-deployment-proof](https://github.com/ozgurgulerx/secure-agent-deployment-proof) *(in build — scaffold, tests and CI first; numbers land as each stage ships)* |
+| **Production agent on Azure** (flagship) | Support-operations agent for a regulated firm on Azure AI Foundry: MCP tools behind OAuth scopes, bounded agent with guardrails and a human-approval path, RAG with an eval gate in CI, tracing with cost per 1k requests and p95 published; architecture pack (HLD, LLD, ADRs, NFR budget, threat model) and governance pack (EU AI Act, NIST AI RMF, ISO 42001, DPIA, system card) in `docs/` | [production-agent-platform](https://github.com/ozgurgulerx/production-agent-platform) — stage table in the README; S0 scaffold with CI, S1 MCP tools in build; numbers land from S3 |
+| **Live coding** | Daily timed Python exercises (25–45 min, no AI during the timer, tests given, commit when the timer ends) and OpenAI Agents SDK primitives rebuilt from memory and diffed against source; the commit timestamps are the evidence | [python-reps](https://github.com/ozgurgulerx/python-reps) |
 | Evals | Reproducible continuous-evaluation harness for agents on Azure AI Foundry; release gates and regression suites | [azure-foundry-cont-eval](https://github.com/ozgurgulerx/azure-foundry-cont-eval) |
 | Retrieval | Hybrid and tree-structured retrieval, PII-safe RAG, GraphRAG | [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag), [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor), [advanced-rag-ozg notes](https://github.com/ozgurgulerx/advanced-rag-ozg), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) |
 | Security and PII | PII detection and redaction, AI security controls and threat-model notes | [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg) |
