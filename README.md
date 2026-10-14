@@ -23,14 +23,14 @@ I design and ship production agent systems: RAG and tool-using agents on Azure A
 
 ### Proof
 
-Every repo below is held to the same bar: README with an architecture diagram, tests, CI, a Dockerfile, and an eval report with numbers. Repos still being brought up to that bar say so in their README.
+The target bar for active proof projects is a README with an architecture diagram, tests, CI, a Dockerfile, and an eval report with numbers. Existing repositories vary in maturity; the production agent workbench identifies its current stage, and notes are labelled below.
 
 | Track | What it shows | Repos |
 | --- | --- | --- |
 | Production agent on Azure | RAG + agent on Azure AI Foundry with MCP tools, OAuth, evals, tracing, guardrails and a human-review path; eval scores, p95 and cost per 1k requests published | [secure-agent-deployment-proof](https://github.com/ozgurgulerx/secure-agent-deployment-proof) *(in build — scaffold, tests and CI first; numbers land as each stage ships)* |
 | Evals | Reproducible continuous-evaluation harness for agents on Azure AI Foundry; release gates and regression suites | [azure-foundry-cont-eval](https://github.com/ozgurgulerx/azure-foundry-cont-eval) |
-| Retrieval | Hybrid and tree-structured retrieval, PII-safe RAG, GraphRAG | [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag), [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor), [advanced-rag-ozg](https://github.com/ozgurgulerx/advanced-rag-ozg), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) |
-| Security and PII | PII detection and redaction, AI security controls and threat-model notes | [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg), [ai-security-ozg](https://github.com/ozgurgulerx/ai-security-ozg) |
+| Retrieval | Hybrid and tree-structured retrieval, PII-safe RAG, GraphRAG | [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag), [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor), [advanced-rag-ozg notes](https://github.com/ozgurgulerx/advanced-rag-ozg), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) |
+| Security and PII | PII detection and redaction, AI security controls and threat-model notes | [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg) |
 | Agent frameworks | Microsoft Agent Framework samples, durable long-running workflows, Foundry Agent Service memory | [agent-framework-ozg](https://github.com/ozgurgulerx/agent-framework-ozg), [af-durable-harness-examples](https://github.com/ozgurgulerx/af-durable-harness-examples), [foundry-agent-service-memory](https://github.com/ozgurgulerx/foundry-agent-service-memory) |
 
 Earlier public work on inference engineering, GNN retrieval and LLM reasoning (LATS) is still here under [Repositories](https://github.com/ozgurgulerx?tab=repositories); it is not the focus of what I take to clients.
