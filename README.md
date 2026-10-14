@@ -49,7 +49,7 @@ Earlier public work on inference engineering, GNN retrieval and LLM reasoning (L
 
 ### How I work
 
-Spec and tests first, typed Python (pydantic, pytest, ruff, mypy, uv), small commits on branches with PRs, Dockerfile and GitHub Actions on every repo. Agent-assisted development with Claude Code and Codex, every generated change reviewed line by line before it merges.
+Spec and tests first, typed Python (pydantic, pytest, ruff, mypy, uv), small commits on branches with PRs, Dockerfile and GitHub Actions as the standard for active builds. Agent-assisted development with Claude Code and Codex, every generated change reviewed line by line before it merges.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure%20AI%20Foundry-0078D4?style=flat&logo=microsoftazure&logoColor=white)
