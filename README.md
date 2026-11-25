@@ -29,12 +29,32 @@ It is refused on the tool server, before a person is ever asked to approve it. T
 | **[Amazon Bedrock and AgentCore](https://github.com/ozgurgulerx/aws-bedrock-agentcore)** | A Bedrock Converse client with [offline tests](https://github.com/ozgurgulerx/aws-bedrock-agentcore/blob/main/tests/test_bedrock_quickstart.py) for request construction and error handling, and an [AgentCore architecture walkthrough](https://github.com/ozgurgulerx/aws-bedrock-agentcore/blob/main/skills/mindmap/references/agentcore-example.md) for an order-support agent. | In build. The agent and its tools on AgentCore come next; live inference is not yet verified. |
 | **[Continuous evaluation on Azure AI Foundry](https://github.com/ozgurgulerx/azure-foundry-cont-eval)** | A harness that schedules agent evaluations, sends controlled traffic and [checks that evaluation runs appear](https://github.com/ozgurgulerx/azure-foundry-cont-eval/blob/main/scripts/verify_evaluation.py). | Working harness, used as a release-gate pattern. |
 
-[More repositories](https://github.com/ozgurgulerx?tab=repositories)
+### More work, by area
+
+- **Agents and frameworks** — [agent-framework-ozg](https://github.com/ozgurgulerx/agent-framework-ozg) (workshop samples for Microsoft Agent Framework: agents, workflows, memory, reasoning), [af-durable-harness-examples](https://github.com/ozgurgulerx/af-durable-harness-examples) (durable, long-running agent workflows), [foundry-agent-service-memory](https://github.com/ozgurgulerx/foundry-agent-service-memory), [foundry-demo](https://github.com/ozgurgulerx/foundry-demo) (the Foundry capabilities announced at Ignite 2025).
+- **Retrieval** — [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor) (tree-structured retrieval on Azure AI Search), [advanced-rag-ozg](https://github.com/ozgurgulerx/advanced-rag-ozg) (notes and patterns), [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag) (PII-safe RAG), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) and [gretriever-gnn](https://github.com/ozgurgulerx/gretriever-gnn) (graph retrieval with GNNs).
+- **Security and PII** — [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg) (PII detection and redaction before the model sees the text).
+- **Reasoning** — [llm-reasoning-lats](https://github.com/ozgurgulerx/llm-reasoning-lats) (Language Agent Tree Search).
+- **Inference** — [inference-journal](https://github.com/ozgurgulerx/inference-journal) (lab notebook: vLLM, TensorRT-LLM and Triton benchmarks).
+
+[All repositories](https://github.com/ozgurgulerx?tab=repositories)
 
 ### Writing
 
 - [Agent Governance on Microsoft Foundry, Part II](https://medium.com/microsoft/agent-governance-on-microsoft-foundry-part-ii-your-own-mcp-server-the-agents-own-identity-and-3bcbc331907f) — What changes when an agent gets its own identity and an Entra app role for a custom MCP tool.
 - [Building Production AI with Microsoft’s Agent Framework](https://medium.com/microsoftazure/building-production-ai-with-microsofts-agent-framework-credit-underwriting-case-study-a40d8335d4ed) — A credit-underwriting case study.
 - [Fixing Sparse Retrieval with RAPTOR on Azure AI Search](https://medium.com/microsoftazure/fixing-sparse-retrieval-with-raptor-on-azure-ai-search-4d540dd3bd43) — Tree-structured retrieval when chunks alone miss the answer.
+- [Context Engineering with Microsoft Agent Framework’s Context Provider API](https://medium.com/microsoftazure/context-engineering-with-microsoft-agent-frameworks-context-provider-api-dcf083daa8be)
+- [The Missing Piece in Graph RAG: Graph Attention Networks](https://medium.com/@343544/the-missing-piece-in-graph-rag-graph-attention-networks-f50cb9857895)
+- [Tackle Complex LLM Decision-Making with Language Agent Tree Search (LATS) and GPT-4o](https://medium.com/data-science/tackle-complex-llm-decision-making-with-language-agent-tree-search-lats-gpt4-o-0bc648c46ea4) — Towards Data Science
+
+### Background
+
+- **Microsoft** — AI Hub solution engineer: use-case workshops, AI prototypes and deployment workshops with enterprise customers. Before that, cloud and AI tech lead for AI-core startups.
+- **AWS** — Solutions architect, first for telcos, then for startups.
+- **Cisco** — Principal system architect for service-provider core and data-centre networks, including Segment Routing / SRv6.
+- **J.P. Morgan and Automat (part of Citadel)** — Low-latency trading networks and multicast market data.
+
+Talks and workshop material are on [ozgurguler.org/talks](https://ozgurguler.org/talks/).
 
 [Website](https://ozgurguler.org/) · [LinkedIn](https://www.linkedin.com/in/ozguler/)
