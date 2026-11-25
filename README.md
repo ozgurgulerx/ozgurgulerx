@@ -2,9 +2,9 @@
 
 [![Total GitHub stars](https://img.shields.io/github/stars/ozgurgulerx?style=flat&label=Total%20stars)](https://github.com/ozgurgulerx?tab=repositories&sort=stargazers)
 
-**Azure-first agentic AI architect for regulated financial services. Amazon Bedrock second. London from January 2027.**
+**AI architect. I design agent and RAG systems on Amazon Bedrock / AgentCore and Azure AI Foundry, and the path that takes them from prototype to production.**
 
-I design and ship production agent systems: RAG and tool-using agents on Azure AI Foundry with MCP and OAuth-scoped tools, eval gates, tracing, guardrails and a human-review path — and the architecture and governance packs a regulated client needs to sign them off. Most recently I was an AI Solutions Engineer at Microsoft (Istanbul innovation hub), building and productionising GenAI systems with enterprise customers. Before that: startup Solutions Architect at AWS in London, low-latency trading systems at J.P. Morgan and Citadel's Automat, and service-provider networks as a Principal Architect at Cisco Systems UK.
+Most recently I was an AI Solutions Engineer at Microsoft's AI innovation hub: use-case workshops with enterprise customers, prototypes on Azure AI Foundry, and deployment planning with their engineering teams. Before that I was Microsoft's cloud and AI tech lead for AI-core startups, and a Solutions Architect at AWS, first for telcos and then for startups. I started in networks: low-latency trading networks at J.P. Morgan and Automat (part of Citadel), and service-provider core and data-centre networks as a Principal System Architect at Cisco.
 
 [![Website](https://img.shields.io/badge/Website-ozgurguler.org-111?style=flat&logo=firefoxbrowser&logoColor=white)](https://ozgurguler.org/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ozguler/)
@@ -13,30 +13,32 @@ I design and ship production agent systems: RAG and tool-using agents on Azure A
 
 ---
 
-### What I build
+### What I work on
 
-- **Production agent systems** — OpenAI Agents SDK, Microsoft Agent Framework / Semantic Kernel and LangGraph; bounded tool-calling loops, handoffs, sessions, structured outputs, streaming.
-- **Secure tool use** — MCP servers with OAuth 2.1 authorisation, scoped permissions, trust boundaries, red-team cases and human review on the irreversible actions.
-- **Evals and release gates** — regression and safety suites, continuous evaluation on Azure AI Foundry, promptfoo / inspect-ai harnesses, eval scores as a merge gate.
-- **Retrieval** — hybrid search with RRF, RAPTOR, GraphRAG, PII controls, retrieval evals on Azure AI Search.
-- **Architecture and governance for regulated clients** — HLD / LLD, ADRs, NFR budgets (p95, cost per 1k requests), threat models, rollout and rollback, EU AI Act / NIST AI RMF / ISO 42001 / DPIA, FCA and PRA model-risk expectations.
+- **Agents on Amazon Bedrock and AgentCore** — Bedrock Converse, Guardrails, and the AgentCore runtime, gateway, identity and memory. I am building an order-support agent here stage by stage, with MCP tools behind OAuth scopes.
+- **Agents on Azure AI Foundry** — Foundry Agent Service, Microsoft Agent Framework / Semantic Kernel, Azure AI Search grounding, APIM as the AI gateway, Entra agent identity.
+- **Secure tool use** — MCP servers with OAuth 2.1 authorisation, scoped permissions, and human approval on the actions that cannot be undone.
+- **Evals and release gates** — regression suites and continuous evaluation, with eval scores used as a merge gate.
+- **Retrieval** — hybrid search with RRF, RAPTOR, GraphRAG, PII controls and retrieval evals.
 
 ---
 
-### Proof
+### Repos
 
-Two repos carry the proof; everything else is supporting work. The bar for the two is a README with an architecture diagram, tests, CI, a Dockerfile and an eval report with numbers, and their stage tables say honestly what is merged and what is planned. The supporting repos are earlier and labelled as such.
+Two builds are active; the rest is earlier supporting work. Each active repo has a stage table that says what is merged and what is planned.
 
 | Track | What it shows | Repos |
 | --- | --- | --- |
-| **Production agent on Azure (flagship)** | Support-operations agent for a regulated firm on Azure AI Foundry: MCP tools behind OAuth scopes, bounded agent with guardrails and a human-approval path, RAG with an eval gate in CI, tracing with cost per 1k requests and p95 published; architecture pack (HLD, LLD, ADRs, NFR budget, threat model) and governance pack (EU AI Act, NIST AI RMF, ISO 42001, DPIA, system card) in `docs/` | [production-agent-platform](https://github.com/ozgurgulerx/production-agent-platform) *(S0 scaffold with CI, S1 MCP tools in build; numbers land from S3)* |
-| **Live coding** | Daily timed Python exercises (25–45 min, no AI during the timer, tests given, commit when the timer ends) and OpenAI Agents SDK primitives rebuilt from memory and diffed against source; commit timestamps are the evidence | [python-reps](https://github.com/ozgurgulerx/python-reps) |
-| Evals | Reproducible continuous-evaluation harness for agents on Azure AI Foundry; release gates and regression suites | [azure-foundry-cont-eval](https://github.com/ozgurgulerx/azure-foundry-cont-eval) |
-| Retrieval | Hybrid and tree-structured retrieval, PII-safe RAG, GraphRAG | [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag), [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor), [advanced-rag-ozg notes](https://github.com/ozgurgulerx/advanced-rag-ozg), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) |
-| Security and PII | PII detection and redaction, AI security controls and threat-model notes | [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg) |
-| Agent frameworks | Microsoft Agent Framework samples, durable long-running workflows, Foundry Agent Service memory | [agent-framework-ozg](https://github.com/ozgurgulerx/agent-framework-ozg), [af-durable-harness-examples](https://github.com/ozgurgulerx/af-durable-harness-examples), [foundry-agent-service-memory](https://github.com/ozgurgulerx/foundry-agent-service-memory) |
+| **Agents on AWS (active)** | Amazon Bedrock Converse client with offline tests, AgentCore architecture notes for an order-support agent (model loop, tools, session context, runtime), and a SageMaker inference guide. The agent build with MCP tools and OAuth is in progress. | [aws-bedrock-agentcore](https://github.com/ozgurgulerx/aws-bedrock-agentcore) |
+| **Agent platform on Azure (active)** | Support-operations agent on Azure AI Foundry: MCP tools behind OAuth scopes with Entra as the authorisation server, guardrails and a human-approval path, RAG with an eval gate in CI, tracing. Built in stages; numbers are published as each stage lands. | [production-agent-platform](https://github.com/ozgurgulerx/production-agent-platform) |
+| Timed Python | Daily timed Python exercises: no AI during the timer, tests given, commit when the timer ends. | [python-reps](https://github.com/ozgurgulerx/python-reps) |
+| Evals | Continuous-evaluation harness for agents on Azure AI Foundry; release gates and regression suites. | [azure-foundry-cont-eval](https://github.com/ozgurgulerx/azure-foundry-cont-eval) |
+| Retrieval | Hybrid and tree-structured retrieval, PII-safe RAG, GraphRAG. | [pii-fund-rag](https://github.com/ozgurgulerx/pii-fund-rag), [ai-search-raptor](https://github.com/ozgurgulerx/ai-search-raptor), [advanced-rag-ozg notes](https://github.com/ozgurgulerx/advanced-rag-ozg), [graph-ai-tutor](https://github.com/ozgurgulerx/graph-ai-tutor) |
+| Security and PII | PII detection and redaction, AI security controls and threat-model notes. | [presidio-pii-ozg](https://github.com/ozgurgulerx/presidio-pii-ozg) |
+| Agent frameworks | Microsoft Agent Framework samples, durable long-running workflows, Foundry Agent Service memory. | [agent-framework-ozg](https://github.com/ozgurgulerx/agent-framework-ozg), [af-durable-harness-examples](https://github.com/ozgurgulerx/af-durable-harness-examples), [foundry-agent-service-memory](https://github.com/ozgurgulerx/foundry-agent-service-memory) |
+| Inference | Lab notebook on LLM serving: vLLM, TensorRT-LLM and Triton benchmarks. | [inference-journal](https://github.com/ozgurgulerx/inference-journal) |
 
-Earlier public work on inference engineering, GNN retrieval and LLM reasoning (LATS) is still here under [Repositories](https://github.com/ozgurgulerx?tab=repositories); it is not the focus of what I take to clients.
+Earlier work on GNN retrieval and LLM reasoning (LATS) is under [Repositories](https://github.com/ozgurgulerx?tab=repositories).
 
 ---
 
@@ -55,8 +57,8 @@ Earlier public work on inference engineering, GNN retrieval and LLM reasoning (L
 Spec and tests first, typed Python (pydantic, pytest, ruff, mypy, uv), small commits on branches with PRs, Dockerfile and GitHub Actions as the standard for active builds. Agent-assisted development with Claude Code and Codex, every generated change reviewed line by line before it merges.
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![AWS](https://img.shields.io/badge/-Amazon%20Bedrock%20%2F%20AgentCore-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure%20AI%20Foundry-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/-Amazon%20Bedrock-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/-OpenAI%20Agents%20SDK-412991?style=flat&logo=openai&logoColor=white)
 ![MCP](https://img.shields.io/badge/-MCP-000?style=flat)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
